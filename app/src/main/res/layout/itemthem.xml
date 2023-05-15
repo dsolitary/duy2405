@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+    <ImageView
+        android:id="@+id/anhitem"
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pho"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/loaimonan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mon an man"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tenmonan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pho Ha Noi"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/giamonan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="50000d"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/diachimonan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Duong Ao Sen,Ha Dong, Ha Noi"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/xoamonan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"/>
+        <Button
+            android:id="@+id/updatemonan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

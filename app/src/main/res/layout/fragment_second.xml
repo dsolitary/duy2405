@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textview_second"
+        android:text="Đăng ký"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:id="@+id/emailkh"
+        android:textSize="20dp"/>
+    <RadioGroup>
+        <RadioButton
+            android:id="@+id/gtnam"
+            android:text="Nam"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/gtnu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nu"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tuổi"
+        android:textColorHint="@color/black"
+        android:id="@+id/tuoikh"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:textColorHint="@color/black"
+        android:id="@+id/diachikh"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:textColorHint="@color/black"
+        android:id="@+id/sdtkh"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/black"
+        android:id="@+id/uskh"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:id="@+id/pskh"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại password"
+        android:textColorHint="@color/black"
+        android:id="@+id/nlpskh"
+        android:textSize="20dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:layout_marginLeft="120sp"
+        android:layout_marginRight="120sp"/>
+
+    <Button
+        android:id="@+id/dangkytk"
+        android:text="Đăng ký"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120sp"
+        android:layout_marginRight="120sp"
+        />
+</TableLayout>

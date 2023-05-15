@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appbandoan"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Appbandoan.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TrangchuActivity"/>
+        <activity android:name=".activity.DangnhapActivity"/>
+        <activity android:name=".activity.DangkyActivity"/>
+        <activity android:name=".activity.QuenmkActivity"/>
+        <activity android:name=".activity.ThemmonanActivity"/>
+        <activity android:name=".activity.UpdatecanhanActivity"/>
+        <activity android:name=".activity.Updatencmonan"/>
+        <activity android:name=".activity.UpdatematkhauActivity"/>
+        <activity android:name=".activity.XemchitietmonanActivity"/>
+        <activity android:name=".activity.GiohangActivity"/>
+        <activity android:name=".activity.Xemthongtinsp"/>
+        <activity android:name=".activity.XemthongbaoActivity"/>
+    </application>
+
+</manifest>

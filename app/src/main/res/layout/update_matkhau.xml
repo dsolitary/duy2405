@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/quaylai4"
+            android:text="←"/>
+        <TextView
+            android:layout_width= "match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/uns2"
+            android:text="Username"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu cũ"
+        android:textColorHint="@color/black"
+        android:id="@+id/mkcu"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu mới"
+        android:textColorHint="@color/black"
+        android:id="@+id/mkmoi"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu mới"
+        android:textColorHint="@color/black"
+        android:id="@+id/nlmkmoi"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatemk"
+        android:text="Cập nhập"/>
+</TableLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/itemgiohang"
+    android:weightSum="3">
+<ImageView
+    android:layout_weight="1"
+    android:layout_width="160dp"
+    android:layout_height="100dp"
+    android:src="@drawable/mi"
+    android:id="@+id/anhgiohang" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tenmonangh"
+        android:text="Mì"
+        android:gravity="center"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/soluongmonangh"
+        android:text="1"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    </LinearLayout>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/xoagiohang"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Xóa" />
+</LinearLayout>

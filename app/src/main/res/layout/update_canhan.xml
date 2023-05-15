@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/quaylai3"
+            android:text="←"/>
+    <TextView
+        android:layout_width= "match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/un"
+        android:text="Username"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:id="@+id/emailkh2"
+        android:textSize="20dp"/>
+    <RadioGroup android:id="@+id/radioGroup">
+        <RadioButton
+            android:id="@+id/gtnam2"
+            android:text="Nam"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/gtnu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nu"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tuổi"
+        android:textColorHint="@color/black"
+        android:id="@+id/tuoikh2"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:textColorHint="@color/black"
+        android:id="@+id/diachikh2"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:textColorHint="@color/black"
+        android:id="@+id/sdtkh2"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatecn"
+        android:text="Cập nhập"/>
+</TableLayout>

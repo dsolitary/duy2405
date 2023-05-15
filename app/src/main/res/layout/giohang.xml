@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/giohang">
+
+    <TextView
+        android:id="@+id/textViewghtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giỏ hàng"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclegiohang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</ScrollView>
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diachinhan"
+        android:text="Địa chỉ nhận"
+        android:gravity="center" />
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tongsotien"
+        android:text="Tổng số tiền"
+        android:gravity="center" />
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vodonhang"
+        android:text="Thêm vào đơn hàng"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+</TableLayout>
